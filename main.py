@@ -5,7 +5,7 @@ from models.species.giraffe import Giraffe
 from models.species.crocodile import Crocodile
 from models.species.giantTortoise import GiantTortoise
 
-newZoo = Zoo("ZoologicoCordoba", "Villa Maria", datetime.datetime(2024, 12, 30))
+newZoo = Zoo("ZoologicoCordoba", "Villa Maria", datetime.time(12, 30))
 newAnimal = Animal("Felino", "Gatito", "4", "Male")
 
 print(newZoo.AnimalsCount())
